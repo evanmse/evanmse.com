@@ -23,13 +23,13 @@ const hero = () => {
       {/* Content */}
       <div className='relative flex justify-center'>
         <div className='max-w-[89vw] z-10'>
-          <h2 className='uppercase tracking-widest text-xs text-center'>
-            Dynamic Web with Next.js
+          <h2 className='uppercase tracking-widest text-s text-center'>
+          🎓 Efrei Paris | 🏢 Co-Fondateur Hasfy | 🧑‍💻 Étudiant-Entrepreneur
           </h2>
           <TextGenerateEffect className="text-center text-4xl md:text-5xl lg:text-6xl" words="Découvrez comment nous pouvons transformer votre vision." />
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>Salut c’est Evan, Co-Fondateur de Hasfy et développeur situé en France.</p>
 
-          <a href="#about" className='block w-fit md:w-60 mx-auto'>
+          <a href="#about" className='block w-fit md:w-60 mx-auto' title="About">
             <MagicButton title="Mes réalisations" icon={<FaLocationArrow />} possition='right'/>
           </a>
         </div>
